@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Public Sans', sans-serif;
+}
+.home-page{
+background-image: url(/images/bg-intro-desktop.svg);
+background-size:cover;
+height: 100vh;
+}
+
+.top-page{
+    background-color:hsl(0, 0%, 100%) ;}
+
+
+
+/* Styling for About page */
+.About-page{
+background-color:  hsl(220, 16%, 96%);
+height: 100vh;
+padding: 4rem 4rem 0 4rem ;
+}
+
+.about-text{
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.about-text h2{
+margin-bottom: 2rem
+}
+.about-images{
+    display: flex;
+}
+#online-banking, #simple-budgeting, #Fast-onboarding, #open-api{
+    padding-left: 2rem;
+}
+
+
+
+.blog-page{
+    height: 100vh;
+    padding-top:4rem ;
+    padding-left: 6rem;
+    padding-right: 4rem;
+    padding-bottom: ;
+
+}
+.blog-page h2{
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+}
+.blog-articles{
+    display: flex;
+}
+
+.blog-articles img{
+    width:100%;
+    height: auto;
+    padding-bottom: 1.5rem;
+}
+.nweze-charles, .adeyinka-daniel, .chioma-chimezie, .mohammed-salisu{
+    background: hsl(0, 0%, 100%) ;
+    margin-left: 2rem;
+}
+.blog-articles #name {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.blog-articles span{
+    font-weight: bold;
+}
+.blog-articles p{
+    margin-top: 1rem;
+}
+
+
+.contact-page{
+    background-color: hsl(233, 26%, 24%) ;
+    display: flex;
+}
+.attribution{
+    background-color: hsl(233, 26%, 24%) ;    
+}
+
+
+
+
+
+
+# Front-end Style Guide
+
+## Layout
+
+## Colors
+
+### Primary
+
+- Dark Blue: hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%)
+
+### Neutral
+
+- Grayish Blue: hsl(233, 8%, 62%)
+- Light Grayish Blue: hsl(220, 16%, 96%)
+- Very Light Gray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%)
+
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+- Weights: 300, 400, 700
+
+
